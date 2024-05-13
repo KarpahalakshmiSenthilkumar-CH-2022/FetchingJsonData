@@ -1,0 +1,72 @@
+{
+    "bakery": [
+        {
+            "id": "0001",
+            "type": "donut",
+            "name": "Cake",
+            "ppu": 0.55,
+            "batters":
+            {
+                "batter":
+                [
+                    { "id": "1001", "type": "Regular", "price": "100", "description": "A small cake of sweetened or, sometimes, unsweetened dough, typically shaped like a ring." },
+                    { "id": "1002", "type": "Chocolate", "price": "120", "description": "A small cake of sweetened or, sometimes, unsweetened chocolate dough, typically shaped like a ring." },
+                    { "id": "1003", "type": "Blueberry", "price": "130", "description": "A small cake of sweetened or, sometimes, unsweetened blueberry dough, typically shaped like a ring." },
+                    { "id": "1004", "type": "Devil's Food", "price": "150", "description": "A small cake of sweetened or, sometimes, unsweetened devil's food dough, typically shaped like a ring." }
+                ]
+            },
+            "topping":
+            [
+                { "id": "5001", "type": "None" },
+                { "id": "5002", "type": "Glazed" },
+                { "id": "5005", "type": "Sugar" },
+                { "id": "5007", "type": "Powdered Sugar" },
+                { "id": "5006", "type": "Chocolate with Sprinkles" },
+                { "id": "5003", "type": "Chocolate" },
+                { "id": "5004", "type": "Maple" }
+            ]
+        },
+        {
+            "id": "0002",
+            "type": "donut",
+            "name": "Raised",
+            "ppu": 0.55,
+            "batters":
+            {
+                "batter":
+                [
+                    { "id": "1001", "type": "Regular", "price": "110", "description": "A small cake of sweetened or, sometimes, unsweetened raised dough, typically shaped like a ring." }
+                ]
+            },
+            "topping":
+            [
+                { "id": "5001", "type": "None" },
+                { "id": "5002", "type": "Glazed" },
+                { "id": "5005", "type": "Sugar" },
+                { "id": "5003", "type": "Chocolate" },
+                { "id": "5004", "type": "Maple" }
+            ]
+        },
+        {
+            "id": "0003",
+            "type": "donut",
+            "name": "Old Fashioned",
+            "ppu": 0.55,
+            "batters":
+            {
+                "batter":
+                [
+                    { "id": "1001", "type": "Regular", "price": "120", "description": "A small cake of sweetened or, sometimes, unsweetened old fashioned dough, typically shaped like a ring." },
+                    { "id": "1002", "type": "Chocolate", "price": "140", "description": "A small cake of sweetened or, sometimes, unsweetened old fashioned chocolate dough, typically shaped like a ring." }
+                ]
+            },
+            "topping":
+            [
+                { "id": "5001", "type": "None" },
+                { "id": "5002", "type": "Glazed" },
+                { "id": "5003", "type": "Chocolate" },
+                { "id": "5004", "type": "Maple" }
+            ]
+        }
+    ]
+}
